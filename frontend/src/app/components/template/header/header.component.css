@@ -7,10 +7,13 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+    color: #ffff
 }
 
 .header .logo {
     max-height: 120px;
+    max-width: 55px;
+    padding-bottom: 2px;
 }
 
 .header .title-group {
