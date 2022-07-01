@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+}
+
+i {
+    margin-right: 15px;
+}
+
+.edit {
+    color: azure;
+}
+
+.delete {
+    color:tomato;
+}

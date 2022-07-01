@@ -19,6 +19,11 @@
       "name": "Lápis Preto",
       "price": "3.99",
       "id": 4
+    },
+    {
+      "name": "Barbeiro de rato",
+      "price": "190,00",
+      "id": 5
     }
   ]
 }
