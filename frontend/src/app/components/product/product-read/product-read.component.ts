@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './product-read.component.html',
   styleUrls: ['./product-read.component.css']
 })
+
 export class ProductReadComponent implements OnInit {
 
   products: Product[] = []
@@ -19,5 +20,6 @@ export class ProductReadComponent implements OnInit {
       this.products = products
     })
   }
+  
 
 }

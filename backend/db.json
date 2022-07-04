@@ -17,13 +17,18 @@
     },
     {
       "name": "Lápis Preto",
-      "price": "3.99",
+      "price": 3.99,
       "id": 4
     },
     {
-      "name": "Barbeiro de rato",
-      "price": "190,00",
+      "name": "Barbeador",
+      "price": 89.9,
       "id": 5
+    },
+    {
+      "name": "Celular Motorola",
+      "price": 599.9,
+      "id": 6
     }
   ]
 }
