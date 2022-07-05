@@ -1,12 +1,10 @@
-import { Product } from './../product.model';
 import { DataSource } from '@angular/cdk/collections';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
 import { Observable, of as observableOf, merge } from 'rxjs';
-
-
-const EXAMPLE_DATA: Product[] = [];
+import { ProductService } from './../product.service';
+import { Product } from './../product.model';
 
 /**
  * Data source for the ProductRead2 view. This class should
@@ -14,11 +12,11 @@ const EXAMPLE_DATA: Product[] = [];
  * (including sorting, pagination, and filtering).
  */
 export class ProductRead2DataSource extends DataSource<Product> {
-  data: Product[] = EXAMPLE_DATA;
+  data: Product[] = [];
   paginator: MatPaginator | undefined;
   sort: MatSort | undefined;
 
-  constructor() {
+  constructor(private productService: ProductService) {
     super();
   }
 

@@ -1,3 +1,15 @@
-.full-width-table {
-    width: 100%;
-  }
+table {
+  width: 100%;
+}
+
+i {
+  margin-right: 15px;
+}
+
+.edit {
+  color: azure;
+}
+
+.delete {
+  color:tomato;
+}
