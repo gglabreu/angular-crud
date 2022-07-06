@@ -29,6 +29,26 @@
       "name": "Celular Motorola",
       "price": 599.9,
       "id": 6
+    },
+    {
+      "name": "Aparelho de som",
+      "price": 90,
+      "id": 7
+    },
+    {
+      "name": "Fones de Ouvido",
+      "price": 60,
+      "id": 8
+    },
+    {
+      "name": "Abacate",
+      "price": 5,
+      "id": 9
+    },
+    {
+      "name": "Arma de brinquedo",
+      "price": 20,
+      "id": 10
     }
   ]
 }

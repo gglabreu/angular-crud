@@ -18,6 +18,9 @@ export class ProductRead2DataSource extends DataSource<Product> {
 
   constructor(private productService: ProductService) {
     super();
+    this.productService.read().subscribe(products =>{
+      this.data = products
+    })
   }
 
   /**
