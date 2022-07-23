@@ -24,6 +24,11 @@
       "name": "Barbeador",
       "price": 89.9,
       "id": 5
+    },
+    {
+      "name": "Produto Misterioso",
+      "price": 109.99,
+      "id": 6
     }
   ]
 }
